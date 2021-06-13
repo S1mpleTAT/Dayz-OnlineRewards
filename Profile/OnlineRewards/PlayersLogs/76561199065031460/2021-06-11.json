@@ -1,0 +1,46 @@
+{
+    "m_OnlineTime": 19,
+    "m_JoinServer": 1,
+    "m_QuitServer": 1,
+    "m_GetRewards": 3,
+    "m_RewardsLogs": [
+        "[20:59:53] Got an online reward(1000), Now owned currency: 1100",
+        "[21:02:44] Got an online reward(1000), Now owned currency: 2100",
+        "[21:06:08] Got an online reward(1000), Now owned currency: 3100"
+    ],
+    "m_OthersLogs": [
+        "[20:53:56] Join Server",
+        "[21:12:02] Quit Server, The Online duration: 0hour 19minute."
+    ],
+    "m_TransferLogs": [
+        "[21:06:22] Give(76561199501257211)transfer:2850, Consume:3000(taxes:150), Now owned currency:100"
+        "[21:10:34] Gain(2850), 来自(76561199065031460), Now owned currency: 2950"
+    ]
+}
+
+//
+//  According to the date of the day, the player log file of the day is automatically created.
+//  Parameter annotation:
+//      "m_OnlineTime"          （The modification will take effect immediately, but it is not recommended to modify）
+//          Type: Int, Unit: minutes
+//          The total time the player has played that day (minute)
+//      "m_JoinServer"          （The modification will take effect immediately, but it is not recommended to modify）
+//          Type: Int
+//          The number of times the player entered the server that day
+//      "m_QuitServer"          （The modification will take effect immediately, but it is not recommended to modify）
+//          Type: Int
+//          The number of times the player left the server that day
+//      "m_GetRewards"          （The modification will take effect immediately）
+//          Type: Int
+//          The number of times players claim online rewards on the day
+//          (If the number of times the player receives the prize is full on the day, lower this parameter to continue to receive the online prize)
+//      "m_RewardsLogs"         （No need to modify）
+//          Type: Array
+//          A detailed record of the player who received online rewards on the day (it will be recorded every time a reward is obtained)
+//      "m_OthersLogs"          （No need to modify）
+//          Type: Array
+//          A detailed record of the player entering/leaving the server that day (recorded every time they enter/exit)
+//      "m_TransferLogs"        （No need to modify）
+//          Type: Array
+//          A detailed record of the transfer initiated/received by the player on the same day (recorded every time it is initiated/received)
+//
