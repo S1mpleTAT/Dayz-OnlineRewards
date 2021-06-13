@@ -16,33 +16,33 @@
 //          Type: String
 //          Mod versions (Please do not modify, otherwise this file will be regenerated)
 //      "m_CreateBankingJson"
-//          类型：整数(Int)，0=否 1=是
-//          是否为玩家自动创建 @Banking 的配置文件 (玩家进入服务器时触发)
-//          (如果不自动创建 玩家必须在游戏中寻找"ATM机"才能创建)
+//          Type: Int, 0=no 1=yes
+//          Whether to automatically create a @Banking profile for the player (triggered when the player enters the server)
+//          (If it is not created automatically, the player must look for the "ATM machine" in the game to create it)
 //      "m_RewardSwitch"
-//          类型：整数(Int)，0=关 1=开
-//          在线奖励的开关  如果=0 玩家不会获得在线奖励。
-//          （修改这个参数需要重新启动 DayZServer_x64.exe 才能生效）
-//      "m_RewardLimits"            （修改后即时生效）
-//          类型：整数(Int)，
-//          玩家们每天最多可获得在线奖励的领奖次数 (这只是个默认值)
-//          (主要是针对新玩家，并非是真实的领奖次数)
-//      "m_RewardInterval"          （修改后即时生效）
-//          类型：整数(Int)，单位：分钟
-//          玩家每次领取在线奖励的间隔时间 (这只是个默认值)
-//          (主要是针对新玩家，并非是真实的领奖间隔)
-//      "m_RewardAmount"            （修改后即时生效）
-//          类型：整数(Int)
-//          玩家每次领取在线奖励的存款数量 (这只是个默认值)
-//          (主要是针对新玩家，并非是真实的奖励数量)
+//          Type: Int, 0=off 1=on
+//          Switch of online rewards If =0, players will not get online rewards.
+//          （Modifying this parameter requires restarting DayZServer_x64.exe to take effect）
+//      "m_RewardLimits"            （Effective immediately after modification）
+//          Type: Int
+//          The maximum number of times players can receive online rewards per day (this is just a default value)
+//          (Mainly for new players)
+//      "m_RewardInterval"          （Effective immediately after modification）
+//          Type: Int, Unit: minutes
+//          The interval between players claiming online rewards each time (this is just a default value)
+//          (Mainly for new players)
+//      "m_RewardAmount"            （Effective immediately after modification）
+//          Type: Int
+//          The number of deposits each time a player receives online rewards (this is just a default value)
+//          (Mainly for new players)
 //      "m_TransferSwitch"
-//          类型：整数(Int)，0=关 1=开
-//          转账系统的开关，
-//      "m_TransferTaxPercent"      （修改后即时生效）
-//          类型：整数(Int)，最大：95 (如果>95 视为95)
-//          转账系统的手续费(百分比)，填多少就等于多少% 5=5% 10=10%
-//          不建议超过50 (毕竟代价太大了 还不如见面直接给卢布...)
-//      "m_RecordLanguage"          （修改后即时生效）
+//          Type: Int, 0=off 1=on
+//          Transfer system switch
+//      "m_TransferTaxPercent"      （Effective immediately after modification）
+//          Type: Int, Max:95 (If >95 treated as 95)
+//          Taxes and fees (percentage) of the transfer system
+//          (It is not recommended to exceed 50)
+//      "m_RecordLanguage"          （Effective immediately after modification）
 //          Type: String
-//          日志文件的写入语言，目前只支持 chinese 或 english
+//          The writing language of the log file, currently only supports "chinese" or "english"
 //
