@@ -21,8 +21,8 @@
 //          (If it is not created automatically, the player must look for the "ATM machine" in the game to create it)
 //      "m_RewardSwitch"
 //          Type: Int, 0=off 1=on
-//          Switch of online rewards If =0, players will not get online rewards.
-//          （Modifying this parameter requires restarting DayZServer_x64.exe to take effect）
+//          Switch of online rewards, If = 0  players will not get online rewards.
+//          (Modifying this parameter requires restarting DayZServer_x64.exe to take effect)
 //      "m_RewardLimits"            （Effective immediately after modification）
 //          Type: Int
 //          The maximum number of times players can receive online rewards per day (this is just a default value)
