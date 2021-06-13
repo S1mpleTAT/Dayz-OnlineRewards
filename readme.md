@@ -41,4 +41,4 @@
             转账扣除的手续费由发起玩家支付。
             目标玩家的游戏状态即使是离线也能转账给他。
 
-## [[服务器]配置文件](https://github.com/S1mpleTAT/Dayz-OnlineRewards/tree/chinese/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)
+## [[服务器]配置文件](https://github.com/S1mpleTAT/Dayz-OnlineRewards/tree/chinese/Profile)
