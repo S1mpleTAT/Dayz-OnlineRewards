@@ -5,15 +5,15 @@
 }
 
 //
-//  参数注解：
-//      "m_RewardLimits"            （修改后即时生效）
-//          类型：整数(Int)，
-//          玩家每天最多可获得在线奖励的领奖次数
-//          (如果玩家当天领奖次数已满，调高这个参数可以继续领取在线奖励)
-//      "m_RewardInterval"          （修改后即时生效）
-//          类型：整数(Int)，单位：分钟
-//          玩家每次领取在线奖励的间隔时间
-//      "m_RewardAmount"            （修改后即时生效）
-//          类型：整数(Int)
-//          玩家每次领取在线奖励的存款数量
+//  Parameter annotation:
+//      "m_RewardLimits"            (Effective immediately after modification)
+//          Type: Int
+//          The maximum number of times a player can receive online rewards per day
+//          (If the number of times the player receives the prize is full on the day, increase this parameter to continue to receive the online reward)
+//      "m_RewardInterval"          (Effective immediately after modification)
+//          Type: Int, Unit: minutes
+//          The interval between players claiming online rewards each time (minute)
+//      "m_RewardAmount"            (Effective immediately after modification)
+//          Type: Int
+//          The number of deposits each time a player receives an online reward
 //
